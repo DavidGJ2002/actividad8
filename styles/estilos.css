@@ -1,0 +1,112 @@
+body{
+  font-family:Georgia, Cambria, "Times New Roman", serif;
+  font-size: 100%;
+  background-image: url(../images/background-pattern.png);
+}
+
+nav ul li,section div ul li{
+  list-style: none;
+  display: inline;
+  margin-left: 0.5em;
+}
+
+#pm{
+  text-align: end;
+  background-color: rgb(33, 54, 66);
+  padding: 0.3em;
+}
+
+#pm ul{
+  margin-right: 3em;
+}
+
+#md{
+   background-color: rgb(223, 232, 237);
+   padding: 0.3em;
+}
+
+#md a{
+  font-size: 1.5em;
+}
+
+img[alt^="logo"], #md ul{
+  margin-left: 4em;
+}
+
+a{
+    color: #00aae4;
+}
+header h1{
+  background-image: url(../images/header-background.png);
+}
+
+.Edit{
+  background: url(../images/edit.png) no-repeat 0 3px;
+  padding-left: 1em;
+}
+
+.Flag{
+  background: url(../images/flag.png) no-repeat 0 3px;
+  padding-left: 1em;
+}
+
+footer{
+  color: white;
+  background-color: rgb(33, 54, 66);
+  margin: 0em 4em 0.5em 4em;
+}
+
+
+#foto{
+  text-align: center;
+  padding: 0.5em;
+  margin: 1em 4em 1em 4em;
+  background-color: white;
+}
+#foto img{
+  border: solid 1px gray;
+  padding: 0.5em;
+  justify-content: center;
+}
+section{
+  margin: 0em 4em 0.5em 4em;
+  border: 0.1em solid black;
+  background-color: white;
+
+}
+section h3{
+  background-image: url(../images/header-background.png);
+  border: solid 0.1em black;
+  color: white;
+  padding: 0.5em;
+}
+
+section p{
+  padding: 0.5em;
+}
+section p em{
+  color: gray;
+}
+section p a{
+  font-weight: bold;
+}
+
+section div ul{
+    background-color: rgb(33, 54, 66);
+    padding: 0.4em;
+}
+section div ul li{
+    background-color:  rgb(223, 232, 237);
+    border-radius: 0.1em;
+    padding: 0.1em;
+}
+
+a[href^="tel"] {
+background: url(images/call.png) no-repeat 0 3px;
+padding-left: 1em;
+}
+
+a[href^="mailto"] {
+    background: url(../images/email.png) no-repeat 0 3px;
+    padding-left: 1em;
+}
